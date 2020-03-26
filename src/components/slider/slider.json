@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {
+      "src": "/static/img/slides/1.jpg",
+      "description": "Plaatsen van daken"
+    },
+    {
+      "src": "/static/img/slides/2.webp",
+      "description": "Aanbouw"
+    },
+    {
+      "src": "/static/img/slides/3.jpg",
+      "description": "Dakrenovatie"
+    },
+    {
+      "src": "/static/img/slides/4.jpg",
+      "description": "Inbouw"
+    },
+    {
+      "src": "/static/img/slides/5.jpg",
+      "description": "Breekwerk"
+    }
+  ]
+}

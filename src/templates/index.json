@@ -1,7 +1,9 @@
 {
-  "title": "I'm a title",
-  "body": "This codebase is a blueprint environment to quick start new front-end projects. It contains an HTTP server via Browsersync, Nunjucks, SCSS, Babel and a Gulp build script to manage it all.",
-  "list": {
-    "items": ["Cherry pie", "Apple pie", "Quiche"]
+  "introText": {
+    "texts": [
+      "Bouwburo de Groet is een veelzijdig bouwbedrijf onder leiding van Rene Langenberg. Wij regelen het complete traject van plan-en project ontwikkeling incl. Vergunning aanvraag bij de gemeente.",
+      "<div class=\"entry__together\">Gespecialiseerd in: <ul><li>ontwerp en maken bouwkundige tekeningen</li><li>vergunning aanvragen</li><li>3D tekeningen</li><li>bouwen / verbouwen / renoveren / onderhoud</li></ul></div>",
+      "Kan ik U helpen? Vraag vrijblijvend een offerte aan bij <a href=\"mailto:info@degroet.nl\">info@degroet.nl</a>"
+    ]
   }
 }

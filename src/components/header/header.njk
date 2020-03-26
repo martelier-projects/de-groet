@@ -1,0 +1,21 @@
+<header class="area-colored">
+  <div class="content-item">
+    <div class="constrain-l header">
+      <h1 class="header__logo">
+        {%- component 'logo' -%}
+      </h1>
+
+      <address class="header__contact">
+        <a class="header__contact-item" href="tel:0619916780">06 19 91 67 80</a>
+        <a class="header__contact-item" href="mailto:info@degroet.nl">info@degroet.nl</a>
+      </address>
+    </div>
+  </div>
+</header>
+<div class="constrain-l foo">
+  <ol class="foo__items">
+    {% for item in items %}
+      <li class="foo__item">{{ item }}</li>
+    {% endfor %}
+  </ol>
+</div>

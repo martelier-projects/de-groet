@@ -1,0 +1,16 @@
+.kpis {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+  font-size: $font-size-l;
+
+  &__kpi {
+    margin: $spacing-m;
+    padding: 0;
+    transform: rotate(-15deg);
+  }
+}

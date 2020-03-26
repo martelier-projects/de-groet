@@ -1,0 +1,18 @@
+{
+  "title": "Contact",
+  "parag": "U kunt altijd contact opnemen via onderstaande opties",
+  "contactOptions": [
+    {
+      "label": "Tel",
+      "action": "<a href=\"tel:0619916780\">06 19 91 67 80</a>"
+    },
+    {
+      "label": "Email",
+      "action": "<a href=\"mailto:info@degroet.nl\">info@degroet.nl</a>"
+    },
+    {
+      "label": "LinkedIn",
+      "action": "<a href=\"https://www.linkedin.com/in/ren%C3%A9-langenberg-8522351a1/\">linkedin.com/rene-langenberg</a>"
+    }
+  ]
+}

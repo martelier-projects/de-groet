@@ -1,0 +1,13 @@
+<div class="slider">
+  <div class="slider__slides">
+    {% for slide in slides %}
+      <figure class="slider__slide">
+        <img class="slider__img" src="{{ slide.src }}" alt="">
+
+        {% if slide.description %}
+          <figcaption class="slider__description">{{ slide.description }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+</div>

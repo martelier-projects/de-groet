@@ -1,34 +1,38 @@
 {% extends '../layout/default.njk' %}
 
 {% block body %}
-<div class="wrapper">
-  {% component 'nav' %}
-  <main>
-    <h1>{{ title }}</h1>
-    <p>{{ body }}</p>
+  <div class="wrapper">
+    {% component 'header' %}
+    <main>
 
-    <h2>List component with default data</h2>
-    {% component 'list' %}
+      <div class="section-item">
+        <div class="constrain-l">
+          {%- component 'entry', introText -%}
+        </div>
+      </div>
+      {#
+      <div class="area-colored">
+        <div class="content-item">
+          <div class="constrain-l">
+            {%- component 'kpis' -%}
+          </div>
+        </div>
+      </div> #}
 
-    <h2>List component with alternate data source path</h2>
-    <p>Some types of waffles:</p>
-    {% component 'list', 'list-waffles.json' %}
-    <img src="/mock/example-waffles.jpg" width="240" alt="Belgian waffle with chocolate sauce">
+      <div class="section-item">
+        <div class="constrain-l">
+          <h2>Soorten werkzaamheden</h2>
+        </div>
+        {%- component 'slider' -%}
+      </div>
 
-    <h2>List component with data provided by template data</h2>
-    <p>Some types of pies:</p>
-    {% component 'list', list %}
-
-    <h2>List component with inline data</h2>
-    <p>Some types of cookies:</p>
-    {% component 'list', { items: ['Chocolate chip cookie', 'Animal cracker', 'Brownie'] } %}
-
-    <h2>List component with alternate data source path and inline data override</h2>
-    <p>Some types of waffles:</p>
-    {% component 'list', 'list-waffles.json', { items: ["There's nothing here anymore, I've eaten all your waffles!"] } %}
-
-    <h2>Carousel component with default data</h2>
-    {% component 'carousel' %}
-  </main>
-</div>
+      <div class="area-colored">
+        <div class="constrain-l">
+          <div class="section-item">
+            {% component 'contact' %}
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 {% endblock %}

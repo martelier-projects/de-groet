@@ -1,0 +1,33 @@
+.slider {
+  width: 100%;
+  overflow-x: auto;
+
+  &__slides {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  &__slide {
+    position: relative;
+    margin: $spacing-s;
+    height: 60vh;
+    flex-shrink: 0;
+  }
+
+  &__img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__description {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: $spacing-s $spacing-m;
+    margin: $spacing-s $spacing-m;
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
